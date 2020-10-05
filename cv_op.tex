@@ -1,4 +1,4 @@
-\documentclass[11pt]{article}
+\documentclass[10pt]{article}
 \usepackage[margin=4mm]{geometry}
 \usepackage[absolute]{textpos}
 \usepackage{expl3}
@@ -161,8 +161,8 @@ BoldItalicFont=texgyreadventor-bolditalic]{texgyreadventor-regular}
 %header right
 \begin{minipage}{0.19\linewidth}
 \begin{tikzpicture}
-\node[circle, text width=2.8cm, draw, color=c-text-secondary, inner sep=0pt, outer sep=0pt, line width=5pt] at (0, 0) {};
-\node at (0, 0) {\includegraphics[width=2.8cm]{photo.png}};
+%\node[circle, text width=2.8cm, draw, color=c-text-secondary, inner sep=0pt, outer sep=0pt, line width=5pt] at (0, 0) {};
+%\node at (0, 0) {\includegraphics[width=2.8cm]{photo.png}};
 \end{tikzpicture}
 \end{minipage}
 \tcblower
@@ -192,24 +192,24 @@ BoldItalicFont=texgyreadventor-bolditalic]{texgyreadventor-regular}
 \begin{triplehead}{Research Assistant}{SOS+CD Lab, iSchool, Syracuse University}{Aug. 2018--July 2020}
 \begin{itemize}
 \item Developed automated tools for image manipulation detection in science
-\item Assisted the application of US ORI grant: “Human-centered automatic tracing, detection, and evaluation of image and data tampering”
+\item Facilitated the application of an US ORI grant
 \end{itemize}
 \end{triplehead}
 
 \begin{triplehead}{Teaching Assistant}{EECS, Syracuse University}{Jan. 2020--May 2020}
 \begin{itemize}
 \item Teaching assistant of CIS-375: Discrete Mathematics, lectured by Prof. Andrew C. Lee
-\item Participated in grading, hosting office hours, preparing recitation materials
-\item Researched and experimented the transition to on-line learning during COVID-19 pandemic
+\item Participated in grading, hosting office hours, preparing recitation materials; Researched and experimented the transition to on-line learning during COVID-19 pandemic
 \end{itemize}
 \end{triplehead}
 
+
 \cvhead{Education}
 
-\begin{triplehead}{Ph.D. in Electrical \& Computer Engineering}{Purdue University}{Aug. 2020--Present}
+\begin{triplehead}{Ph.D. in Electrical \& Computer Engineering}{Purdue University, West Lafayette, IN}{Aug. 2020--Present}
 \end{triplehead}
 
-\begin{triplehead}{MSc. in Computer Science}{Syracuse University}{Aug. 2018--May 2020}
+\begin{triplehead}{MSc. in Computer Science}{Syracuse University, Syracuse, NY}{Aug. 2018--May 2020}
 \end{triplehead}
 
 \begin{triplehead}{BSc. in Information \& Computing Science}{Sun Yat-sen University, Guangdong, China}{Sept. 2014-June 2018}
@@ -217,6 +217,15 @@ BoldItalicFont=texgyreadventor-bolditalic]{texgyreadventor-regular}
 \item Best undergraduate thesis award
 \end{itemize}
 \end{triplehead}
+
+\cvhead{Selected Projects}
+\begin{itemize}
+\item Data-driven false-positive likelihood map for image reuse detection
+\item Scientific image tampering detection based on noise inconsistencies
+\item WPANTAP: virtual Linux network driver for IEEE 802.15.4 IoT device simulation
+\item Chinese lip-reading system based on RNN
+\end{itemize}
+
 
 \end{minipage}\hfill
 % right column
@@ -237,18 +246,15 @@ BoldItalicFont=texgyreadventor-bolditalic]{texgyreadventor-regular}
 \begin{itemize}
 \item Python
 \begin{itemize}
-\item Proficient in the usage of numpy and scipy, which maximizes Python's performance
-\item Experienced at parallelizing Python, as well as extending Python with Cython or C++
+\item maximizing Python's performance with numpy, scipy as well as Cython and C++ extensions
 \end{itemize}
 \item Machine learning (computer vision)
 \begin{itemize}
-\item Studied and understood the mathematical derivation of most off-the-shelf machine learning algorithms
-\item Familiar with machine learning toolkits (e.g. sckit-learn) and computer vision toolkits (e.g. OpenCV)
+\item Understand the mechanism of most machine learning algorithms and the usage of major ML and CV toolkits
 \end{itemize}
 \item \LaTeX
 \begin{itemize}
-\item Familiar with advanced \TeX\ technologies such as \LaTeX3 and \LuaLaTeX
-\item Active package developer in \LaTeX\ community (e.g. luaprogtable)
+\item Proficient with advanced \TeX\ technologies such as \LaTeX3 and \LuaLaTeX
 \end{itemize}
 \end{itemize}
 
@@ -271,12 +277,20 @@ Cantonese & \skillbar{4/6}
 (2020)
 \end{itemize}
 
+\cvhead{Other Activities}
+\begin{triplehead}{ECS Global Graduate Ambassador--Orientation Leader}{Syracuse University}{Aug. 2019}
+\begin{itemize}
+\item Organized orientation event for new Syracuse ECS international students
+\item Led a group of new foreign students in the scavenger hunt
+\end{itemize}
+\end{triplehead}
+
 
 \end{minipage}
 }
 
 \begin{textblock*}{\linewidth}(1cm,4pt)
-\footnotesize If you like this template, you can find its source code at \href{https://github.com/xziyue/cv-onepager}{https://github.com/xziyue/cv-onepager}
+\tiny If you like this template, you can find its source code at \href{https://github.com/xziyue/cv-onepager}{https://github.com/xziyue/cv-onepager}
 \end{textblock*}
 
 \end{document}
